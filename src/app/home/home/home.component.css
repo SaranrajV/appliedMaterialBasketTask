@@ -1,0 +1,94 @@
+.home-container{
+    margin: 5%;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-item{
+    height: 200px;
+    width: 100px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+    position: relative;
+    border-radius: 5px;
+}
+
+.flex-item button{
+    
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background: navy;
+
+}
+
+.flex-item h1{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.flex-item p{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn{
+    position: absolute;
+    bottom: 2rem;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.basketcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.basket-content{
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 0.5rem;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.basket-label{
+    height: 15px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+}
+
+.logout-cls{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.all-items{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.btn mat-icon{
+    color:white;
+    cursor: pointer;
+    padding: 6px;
+}
+.mat-card{
+    margin-bottom: 20px;
+}

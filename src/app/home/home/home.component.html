@@ -1,0 +1,31 @@
+<div class="home-container">
+    <button mat-fab color="warn" class="logout-cls" title="Logout" (click)="logout()">
+       <mat-icon>power_settings_new</mat-icon>
+      </button>
+      
+<div >
+
+    <h3 class="all-items"> All Items</h3>
+  <mat-card class="flex-container item">
+
+    
+  <mat-card class="flex-item" *ngFor="let item of items; let i = index;" [ngStyle]="{'background': item.bgcolor }">
+    <h1> {{item.name}} </h1>
+    <p> {{item.count}} </p>
+    <div class="btn">
+     <mat-icon (click)="incrementData(item)">add_circle_outline</mat-icon>
+     <mat-icon (click)="decrementData(item)">remove_circle_outline</mat-icon>
+    </div>
+  </mat-card>
+</mat-card>
+
+</div>
+<div>
+    <h3 class="all-items"> Basket Stack</h3>
+<mat-card class="basketcontainer">
+    <mat-card class="basket-content" >
+      <p class="basket-label" *ngFor="let item of bitems" [ngStyle]="{'background': item.bgcolor }" > </p>
+      </mat-card>
+  </mat-card>
+  </div>
+  </div>
